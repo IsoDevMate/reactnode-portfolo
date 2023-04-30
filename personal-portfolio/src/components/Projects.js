@@ -65,10 +65,10 @@ export const Projects = () => {
                       </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="section">
-                      <p>network engineer at last</p>
+                      <p>network engineer looking to learn more</p>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
-                      <p>enjoyinng every bit of my works</p>
+                      <p>Enjoyinng every bit of my days of Knowledge</p>
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>

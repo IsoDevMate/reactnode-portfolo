@@ -65,7 +65,7 @@ export const Projects = () => {
                       </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="section">
-                      <p>network engineer looking to learn more</p>
+                      <p>Network Engineer looking to learn more</p>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
                       <p>Enjoyinng every bit of my days of Knowledge</p>

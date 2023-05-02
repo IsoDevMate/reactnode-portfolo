@@ -23,6 +23,7 @@ function App() {
       <Contact />
       <Footer />
       <Experience />
+     
     </div>
   );
 }

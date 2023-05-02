@@ -1,0 +1,24 @@
+.cta {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+}
+
+.btn-primary {
+    background: var(--color-sec);
+    color: white;
+    width: max-content;
+    display: inline-block;
+    cursor: pointer;
+    transition: 400ms;
+    padding: 1.5rem 2.5rem;
+    margin-top: 5%;
+
+}
+
+.btn-primary:hover {
+    background: var(--color-sec);
+    color: white;
+    border: 1px solid white;
+}

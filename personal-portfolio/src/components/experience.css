@@ -1,0 +1,23 @@
+.counter {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 200px;
+    background: #222;
+    text-align: center;
+    padding: 0;
+    margin: 10px;
+}
+
+.box span {
+    font-size: 64px;
+    color: rgb(88, 211, 104);
+}
+
+.box h3 {
+    font-size: 32px;
+    color: #fff;
+}

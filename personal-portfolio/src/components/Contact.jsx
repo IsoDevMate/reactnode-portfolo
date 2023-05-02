@@ -1,11 +1,9 @@
 import React from 'react'
 import "./Contact.css"
 import { useRef } from 'react';
-import { MdEmail, MdPhone } from 'react-icons/md'
+import { MdEmail } from 'react-icons/md'
 import { BsFillEnvelopeFill } from 'react-icons/bs'
-import {MdOutlineEmail} from 'react-icons/md'
 import {BsLinkedin} from 'react-icons/bs'
-import {BsWhatsapp} from 'react-icons/bs'
 import emailjs from  'emailjs-com'
 
 export const  Contact = () => {

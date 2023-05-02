@@ -1,8 +1,8 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
+import imagebkd from "../assets/img/imagebkd.jpeg";
+import imagefro from "../assets/img/imagefro.jpeg";
+import imagesrv from "../assets/img/imagesrv.jpeg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -11,19 +11,20 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "fULLSTACKAPP",
-      description: "Server-Side RENDERING",
-      imgUrl: projImg1,
+      title: "Server-side Rendering",
+      description: "BACKEND DEVELOPMENT",
+      imgUrl:imagebkd,
     },
     {
-      title: "fULLSTACKAPP",
-      description: "Server-Side RENDERING",
-      imgUrl: projImg1,
+      title: "Learning MicrofrontEnd",
+      description: "MPESA APP FRONTEND ",
+      imgUrl: imagefro,
+      link:"https//github.com/IsoDevMate/Mpesa-App",
     },
     {
-      title: "fULLSTACKAPP",
-      description: "Server-Side RENDERING",
-      imgUrl: projImg1,
+      title: "API Intergation",
+      description: "MICROSERVICES",
+      imgUrl: imagesrv,
     },
   ];
 
@@ -68,7 +69,9 @@ export const Projects = () => {
                       <p>Network Engineer looking to learn more</p>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
-                      <p>Enjoyinng every bit of my days of Knowledge</p>
+                      <p> intermediate level developer with a focus on server-side rendering.  passionate about building powerful web applications that can handle high traffic and complex business logic, and I believe that server-side rendering is the key to achieving this.
+
+Over the years, I have honed my skills in server-side rendering, and I am now well-versed in technologies such as Node.js, Express, and React. </p>
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>

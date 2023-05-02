@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import download from "../assets/img/download.svg";
+import ph from "../assets/img/ph.svg";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -47,6 +47,13 @@ export const Banner = () => {
     }
   }
 
+  const handleConnectClick = () => {
+    window.scrollTo({
+      top: document.getElementById("contacts").offsetTop,
+      behavior: "smooth"
+    });
+  }
+
   return (
     <section className="banner" id="home">
       <Container>
@@ -58,20 +65,15 @@ export const Banner = () => {
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Its Barack Here A:`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "FrontEnd Developer", "BackEnd Developer", "NETWORK Engineer" ]'><span className="wrap">{text}</span></span></h1>
                   <p>👋 Hi there! I'm a multi-talented tech enthusiast and leraner  in three tech areas: 🖥️ backend development, 🎨 frontend development, and 🔌 network engineering.</p>
-                  <button onClick={() => console.log('connect')}>Shall we Connect <ArrowRightCircle size={25} /></button>
+                  <button onClick={handleConnectClick}>Shall we Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
           </Col>
           <Col xs={12} md={6} xl={5}>
-            <TrackVisibility>
-              {({ isVisible }) =>
-                <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
-                  <img src={download} alt="images"/>
-                </div>}
-            </TrackVisibility>
+            <img src={ph} alt="Download" />
           </Col>
         </Row>
       </Container>
     </section>
-  )
-}
+  );
+};

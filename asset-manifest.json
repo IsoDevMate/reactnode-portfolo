@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/reactnode-portfolo/%20/static/css/main.c3d2cafc.css",
-    "main.js": "/reactnode-portfolo/%20/static/js/main.8c951bab.js",
+    "main.js": "/reactnode-portfolo/%20/static/js/main.e2009f24.js",
     "static/js/787.fb771931.chunk.js": "/reactnode-portfolo/%20/static/js/787.fb771931.chunk.js",
     "static/media/color-sharp.png": "/reactnode-portfolo/%20/static/media/color-sharp.bea361cfef80fefc2d1e.png",
     "static/media/color-sharp2.png": "/reactnode-portfolo/%20/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
@@ -24,15 +24,13 @@
     "static/media/twitter.svg": "/reactnode-portfolo/%20/static/media/twitter.0407223bb7bca83e1349f743cc8849a2.svg",
     "index.html": "/reactnode-portfolo/%20/index.html",
     "static/media/nav-icon1.svg": "/reactnode-portfolo/%20/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
-    "static/media/arrow2.svg": "/reactnode-portfolo/%20/static/media/arrow2.3d9522b6fd8f2464b7200ebf2c1bb09a.svg",
-    "static/media/arrow1.svg": "/reactnode-portfolo/%20/static/media/arrow1.0c89b5b635adf255c2822c630aaa6ccf.svg",
     "static/media/nav-icon2.svg": "/reactnode-portfolo/%20/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
     "main.c3d2cafc.css.map": "/reactnode-portfolo/%20/static/css/main.c3d2cafc.css.map",
-    "main.8c951bab.js.map": "/reactnode-portfolo/%20/static/js/main.8c951bab.js.map",
+    "main.e2009f24.js.map": "/reactnode-portfolo/%20/static/js/main.e2009f24.js.map",
     "787.fb771931.chunk.js.map": "/reactnode-portfolo/%20/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c3d2cafc.css",
-    "static/js/main.8c951bab.js"
+    "static/js/main.e2009f24.js"
   ]
 }

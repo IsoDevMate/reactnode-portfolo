@@ -34,3 +34,8 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+
+## Problem deploying React app on Netlify
+
+I have added a `_redirects` file to my React app to ensure that Netlify can find the `index.html` file, but when I try to deploy the site on Netlify, it still says that the file is not found.

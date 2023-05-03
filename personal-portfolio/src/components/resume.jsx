@@ -10,7 +10,6 @@ export const Resume = () => {
         <a href={CV} download className='btn-primary'>Dowload CV</a>
         <a href={CERT} download className='btn-primary'>Dowload CISCO CERT</a>
         <a href="#contacts" className='btn-primary'>Contact Me</a>
-        
     </div>
   )
 }

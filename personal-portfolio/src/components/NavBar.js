@@ -53,9 +53,9 @@ export const NavBar = () => {
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="https://www.linkedin.com/in/barack-ouma-851226221/" target="_blank"><img src={navIcon1} alt="" /></a>
-                <a href="https://twitter.com/BarackOuma7" target="_blank"><img src={twitter} alt="" /></a>
-                <a href="https://www.instagram.com/ba.ra.ck_o.u.ma/" target="_blank"><img src={navIcon3} alt="" /></a>
+                <a href="https://www.linkedin.com/in/barack-ouma-851226221/" target="_blank" rel="noreferrer"><img src={navIcon1} alt="" /></a>
+                <a href="https://twitter.com/BarackOuma7" target="_blank" rel="noreferrer"><img src={twitter} alt="" /></a>
+                <a href="https://www.instagram.com/ba.ra.ck_o.u.ma/" target="_blank" rel="noreferrer"><img src={navIcon3} alt="" /></a>
                
               </div>
               <HashLink to='#contacts'>

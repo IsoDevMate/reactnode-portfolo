@@ -6,7 +6,7 @@ export const MailchimpForm = () => {
 
   return (
     <>
-      
-    </>
+     </>
+
   )
 }

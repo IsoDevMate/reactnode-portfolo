@@ -49,11 +49,4 @@ html {
   section>h2 {
     margin-bottom: 2rem;
   }
-
-}
-@media print {
-  body {
-    -webkit-print-color-adjust: exact;
-    print-color-adjust: exact;
-  }
 }

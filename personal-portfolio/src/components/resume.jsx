@@ -1,6 +1,6 @@
 import React from 'react'
 import CV from "../assets/font/Barack_Oduor_Ouma_CVs.docx"
-import CERT from "../assets/font/Cover_Letter_Baracks.docx"
+import CERT from "../assets/font/BARACKOUMA-CCNAnov.pdf"
 
 import './Resume.css'
 
